@@ -1,0 +1,12 @@
+.sidebar {
+  background: var(--gray-300);
+  height: 100vh;
+  width: 26rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}

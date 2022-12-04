@@ -8,6 +8,7 @@
 
 html {
   box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px */
 }
 
 :root {
@@ -24,7 +25,7 @@ body,
 input,
 button {
   font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
+  font-size: 1.6rem;
   color: var(--blue-400);
 }
 
@@ -33,6 +34,11 @@ h2,
 h3 {
   font-weight: 700;
   color: var(--blue-500);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 button {

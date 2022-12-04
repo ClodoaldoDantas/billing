@@ -1,0 +1,20 @@
+.profile {
+  margin: 5rem 3.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.profileContent {
+  display: flex;
+  flex-direction: column;
+
+  strong {
+    font-size: 1.6rem;
+    color: var(--blue-500);
+  }
+
+  span {
+    font-size: 1.4rem;
+  }
+}
