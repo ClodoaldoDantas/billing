@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  --blue-500: #1a194d;
+  --blue-400: #62618f;
+  --orange-500: #ee4d38;
+
+  --gray-400: #cbcbd9;
+  --gray-300: #f8f8ff;
+  --white: #ffffff;
+}
+
+body,
+input,
+button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: var(--blue-400);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: var(--blue-500);
+}
+
+button {
+  cursor: pointer;
+}
