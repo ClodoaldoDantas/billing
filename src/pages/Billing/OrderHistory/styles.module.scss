@@ -1,0 +1,33 @@
+.orderHistoryContainer {
+  table {
+    margin-top: 4.8rem;
+    width: 100%;
+
+    thead th {
+      font-size: 1.4rem;
+      line-height: 2rem;
+      font-weight: 500;
+      text-align: left;
+    }
+
+    tbody td {
+      padding: 1rem 0;
+      font-weight: 500;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      color: var(--blue-500);
+    }
+  }
+}
+
+.loadMore {
+  margin-top: 1.6rem;
+  background: transparent;
+  border: 0;
+
+  text-decoration: underline;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  color: var(--orange-500);
+}

@@ -1,0 +1,31 @@
+.paymentMethodContainer {
+  margin-top: 8rem;
+}
+
+.paymentMethod {
+  margin-top: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.creditCard {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  figure {
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    border: 1px solid #cbcbd9;
+    border-radius: 6px;
+  }
+
+  span {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--blue-500);
+  }
+}
