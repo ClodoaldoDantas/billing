@@ -7,7 +7,7 @@
 
 ## 💻 Projeto
 
-Template de um dashboard para controle de pagamentos.
+Template para um dashboard de controle de pagamentos.
 
 ## 🚀 Tecnologias
 
