@@ -5,6 +5,8 @@
 .paymentMethod {
   margin-top: 2.4rem;
   display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
   align-items: center;
   justify-content: space-between;
 }

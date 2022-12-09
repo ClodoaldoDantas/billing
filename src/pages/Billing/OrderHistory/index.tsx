@@ -17,26 +17,28 @@ export function OrderHistory() {
         content="Manage billing information and view receips"
       />
 
-      <table>
-        <thead>
-          <tr>
-            <th style={{ width: '45%' }}>Date</th>
-            <th style={{ width: '45%' }}>Type</th>
-            <th style={{ width: '10%' }}>Receipt</th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((item) => (
-            <tr key={item.id}>
-              <td>{item.date}</td>
-              <td>{item.type}</td>
-              <td>
-                <Button type="button">Download</Button>
-              </td>
+      <div style={{ overflowX: 'auto' }}>
+        <table>
+          <thead>
+            <tr>
+              <th style={{ width: '45%' }}>Date</th>
+              <th style={{ width: '45%' }}>Type</th>
+              <th style={{ width: '10%' }}>Receipt</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {data.map((item) => (
+              <tr key={item.id}>
+                <td>{item.date}</td>
+                <td>{item.type}</td>
+                <td>
+                  <Button type="button">Download</Button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
 
       <button type="button" className={styles.loadMore}>
         Load more

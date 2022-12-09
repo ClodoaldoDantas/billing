@@ -48,4 +48,12 @@ button {
 .wrapper {
   margin-left: 26rem;
   padding: 6.4rem;
+
+  @media only screen and (max-width: 991px) {
+    margin-left: 0;
+  }
+
+  @media only screen and (max-width: 767px) {
+    padding: 3.2rem;
+  }
 }
