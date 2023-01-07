@@ -12,7 +12,11 @@ export function Billing() {
     <div className={styles.grid}>
       <section className={styles.section}>
         <div className={styles.sectionIntro}>
-          <button onClick={toggleDrawer} className={styles.toggle}>
+          <button
+            aria-label="Abrir Menu"
+            onClick={toggleDrawer}
+            className={styles.toggle}
+          >
             <HiOutlineMenu size={24} />
           </button>
 

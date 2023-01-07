@@ -8,7 +8,7 @@ interface PageHeaderProps {
 export function PageHeader({ title, content }: PageHeaderProps) {
   return (
     <header className={styles.pageHeader}>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p>{content}</p>
     </header>
   )
